@@ -1,0 +1,19 @@
+{
+  "name": "angular-forms-types",
+  "version": "1.0.0",
+  "description": "Utility types for Angular Typed Forms",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomasz-grzesiak/angular-forms-types.git"
+  },
+  "author": "Tomasz Grzesiak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomasz-grzesiak/angular-forms-types/issues"
+  },
+  "homepage": "https://github.com/tomasz-grzesiak/angular-forms-types#readme",
+  "dependencies": {
+    "@angular/forms": "^14.3.0"
+  }
+}
