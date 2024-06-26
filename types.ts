@@ -58,20 +58,3 @@ export type RawFormValue<T, U extends T = T> = T extends Array<infer S>
         ? T
         : FormValueGroupOrRecord<T>
     : U;
-
-
-
-    
-export type FormControlProperties<T> = Pick<
-    T,
-    {
-        [P in keyof T]: T[P] extends 
-            | FormControl
-            | string
-            | number
-            | boolean
-            | Date
-            ? P
-            : never;
-    }[keyof T]
->;
