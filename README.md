@@ -28,4 +28,8 @@ While iterating over properties:
 
 ## StringRecord\<T>
 
-`StringRecord` is a helper type tu use when creating forms that use `FormRecord`s. Its usage is described in the `TypedFormGroup` section. 
+`StringRecord` is a helper type tu use when creating forms that use `FormRecord`s. Its usage is described in the `TypedFormGroup` section.
+
+# Usage
+
+Extensive examples of various use cases are gathered in `types.service.ts` file. Hope it clears any doubts about provided utility types.
