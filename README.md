@@ -1,7 +1,7 @@
 # Angular Forms Types
 ## Why
 
-With Angular 14, the Angular team provided us with the ability to create strictlt typed forms, which has the potential of greatly improving developers' lives.
+With Angular 14, the Angular team provided us with the ability to create strictly typed forms, which has the potential of greatly improving developers' lives.
 
 Unfortunately, the set of types available in @angular/forms library is quite cumbersome when it comes to work with FormGroups, as there are no wrapper types that can transform data model into appropriate form type. This poses quite a challenge from the perspective of providing a specific type in numerous situations, e.g. when passing such a FormGroup as an input parameter into a child component.
 
